@@ -4,8 +4,8 @@ import csv
 # ##################################################
 # 请在这里替换您的 Cloudflare 账户信息
 # ##################################################
-API_KEY = "b5fc4d3e7bdb1c1528a00363420303c0f41fb"  # 您的 Cloudflare API 密钥
-EMAIL = "liubohn69@gmail.com"      # 您的 Cloudflare 账户邮箱
+API_KEY = ""  # 您的 Cloudflare API 密钥
+EMAIL = ""      # 您的 Cloudflare 账户邮箱
 # ##################################################
 
 def get_zones():
@@ -64,4 +64,5 @@ def main():
         print(f"发生错误: {e}")
 
 if __name__ == "__main__":
+
     main()
